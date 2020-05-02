@@ -18,8 +18,31 @@ System.out.println, System.out.print можно использовать тол�
 
 public class Task3 {
 
-    public static void main(String[] args) {
-        String s = "*";
-        System.out.println(s);
+
+
+        public static void main(String[] args) {
+            String s = "+";
+
+            int spacesAmount = 0;
+            int symbolsAmount = 0;
+            int totalStringLength = 11;
+                for (int i=1; i<totalStringLength; i++) {
+                spacesAmount = totalStringLength-i;
+                symbolsAmount = totalStringLength - spacesAmount;
+                for (int m=0; m<spacesAmount; m++) {
+                    System.out.print(" ");
+                }
+                    for (int j = 0; j < symbolsAmount; j++) {
+
+                        System.out.print(s);
+                    }
+
+
+                System.out.println();
+
+
+            }
+
+           // System.out.println(s);
     }
 }

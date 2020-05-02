@@ -9,8 +9,24 @@ System.out.println, System.out.print можно использовать тол�
 public class Task3 {
 
     public static void main(String[] args) {
-        String s = "Vladimir";
-        System.out.println(
+        String s = "Olha ";
+    int i=0;
+
+    while (i < 5) {
+       int j=0;
+        while (j < 10) {
+            System.out.print(s);
+            j++;
+        }
+        System.out.println();
+        i++;
+
+
+    }
+
+
+
+        /* System.out.println(
                 s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
                         + s);
         System.out.println(
@@ -25,5 +41,6 @@ public class Task3 {
         System.out.println(
                 s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " " + s + " "
                         + s);
+        */
     }
 }
